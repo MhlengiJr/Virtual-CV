@@ -1,14 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mhlengi's Projects</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #001f3f;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .projects-container {
+      max-width: 800px;
+      width: 90%;
+      margin-top: 60px;
+      background-color: #012a4a;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0, 180, 216, 0.2);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #cce3f4;
+    }
+
+    .project {
+      background-color: #014f86;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 180, 216, 0.1);
+    }
+
+    .project a {
+      color: #00b4d8;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .project a:hover {
+      color: #90e0ef;
+    }
+
+    .project p {
+      margin-top: 10px;
+      font-size: 0.95em;
+      color: #a8c6df;
+    }
+
+    .nav-link {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin-top: 10px;
+      background-color: #0077b6;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #00b4d8;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 15px 10px;
+      background-color: #012a4a;
+      color: #a8c6df;
+      font-size: 0.9em;
+      margin-top: auto;
+      box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.1);
+    }
+  </style>
 </head>
 <body>
-    <h1>Mhlengi's Projects</h1>
-    <a>This is "a" tag</a>
 
+  <div class="projects-container">
+    <h1>Personal Projects</h1>
 
+    <div class="project">
+        <a href="CMPG315GUI.exe" download>
+            <i class="fas fa-download" style="margin-right: 8px;"></i>
+            Text Messaging App
+        </a>
+        <p><strong>Tools used:</strong>C# (WinForms .NET), Microsoft Azure SQL for backend database hosting.</p>
+    </div>
+
+    <div class="project">
+        <a href="Blue Caution Auto Dealership.exe" download>
+            <i class="fas fa-download" style="margin-right: 8px;"></i>
+            Blue Caution Auto Dealership 
+        </a>
+        <p><strong>Tools used:</strong> C# (WinForms .NET), SQL (locally hosted database).</p>
+    </div>
+
+    <!-- Add more projects here in same format later -->
+    
+    <div class="nav-link">
+      <a href="index.html" class="btn">← Back to Home</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Mhlengi Mpongo. All rights reserved.
+  </footer>
 </body>
 </html>
