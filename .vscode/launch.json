@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open projects.html",
+            "file": "c:\\Users\\User\\Desktop\\3RD YEAR IT\\2nd Semester(2025)\\Virtual-CV\\projects.html"
+        }
+    ]
+}
